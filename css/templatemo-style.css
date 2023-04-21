@@ -327,9 +327,9 @@ h1,h2,h3,h4,h5
 
 /* start contact */
 
-#contact
+#contact, #rollcall
     {
-        background: #D43F52;
+        background: linear-gradient(162deg, rgba(93,44,50,1) 10%, rgba(212,63,82,1) 97%);
         padding-top: 100px;
         padding-bottom: 100px;
     }
