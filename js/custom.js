@@ -1,11 +1,4 @@
-
-//
-$(document).ready(function() {
-
-		});
-
-// wow
-$(function()
+(function()
 {
     new WOW().init();
     $(".rotate").textrotator();
