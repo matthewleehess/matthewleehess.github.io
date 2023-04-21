@@ -327,6 +327,15 @@ h1,h2,h3,h4,h5
 
 /* start contact */
 
+#contact
+    {
+        background: #D43F52;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #contact a {
+        color: #000000;
+    }
 #contact address
     {
       padding-bottom: 18px;
