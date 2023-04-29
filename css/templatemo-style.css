@@ -402,7 +402,16 @@ h1,h2,h3,h4,h5
     transform: rotate(-15deg);
 }
 }
-
+@media screen and (max-width: 768px) {
+#blog .row.blog-article {
+    margin-bottom: 5rem;
+    background: #1c1c1c;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 15px 0;
+}
+#blog .row.blog-article img {    width: 100%;}
+}
 /* start footer */
 footer
     {
