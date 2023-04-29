@@ -171,9 +171,10 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('../images/home-bg.jpg');
+        background: url('../images/home-bg2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center center;
         padding-top: 120px;
         padding-bottom: 140px;
         text-align: center;
@@ -327,11 +328,19 @@ h1,h2,h3,h4,h5
 
 /* start contact */
 
-#contact, #rollcall
+#contact, #rollcall, #announcement
     {
         background: linear-gradient(162deg, rgba(93,44,50,1) 10%, rgba(212,63,82,1) 97%);
+    }
+    #contact, #rollcall {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+    #announcement {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        color: white;
+        font-weight: bold;
     }
     #contact a {
         color: #000000;
@@ -386,6 +395,13 @@ h1,h2,h3,h4,h5
         color: #D43F52;
     }
 /* end contact */
+
+@media screen and (max-width: 768px) {
+#rollcall img {
+    margin-top: 20px;
+    transform: rotate(-15deg);
+}
+}
 
 /* start footer */
 footer
